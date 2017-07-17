@@ -1,9 +1,17 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  Español:
+    - title: "test1"
+      url: /es-test1/
+    - title: "test2"
+      url: /es-test2/
+  Deutsch:
+    - title: "test1"
+      url: /de-test1/
+    - title: "test2"
+      url: /de-test2/
+  - title: "About"
+    url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
