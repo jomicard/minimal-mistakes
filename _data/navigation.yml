@@ -1,13 +1,8 @@
 # main links
 main:
-  - title: "Posts"
-    url: /year-archive/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "Pages"
-    url: /page-archive/
-deut:
-  - title: "Posts12"
-    url: /year-archive12/
+  - title: "English"
+    url: /eng/
+  - title: "Deutsch"
+    url: /deu/
+  - title: "Español"
+    url: /esp/
