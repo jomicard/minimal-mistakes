@@ -10,45 +10,52 @@ header:
 intro: 
   - excerpt: "¡Bienvenidos a nuestro sitio! Nos emociona muchísimo celebrar este día con ustedes. Aquí encontrán algunos links e información sobre el día del evento que esperamos sean de utilidad. Sin embargo, si tienen preguntas, no duden en contactarnos. ¡Los queremos!"
 feature_row:
-  - image_path: /assets/images/myimages/pappys1.jpg
+  - image_path: assets/images/unsplash-gallery-image-1-th.jpg
     alt: "placeholder image 1"
-    title: "Nuestra historia"
-    excerpt: "Algunos detalles del camino que hemos recorrido hasta este momento."
-    url: "#test-link"
-    btn_label: "Click aquí"
-  - image_path: /assets/images/myimages/blues1.jpg
+    title: "Placeholder 1"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
-    title: "La misa"
-    excerpt: "Hora, lugar e instrucciones para el momento más importante del día."
+    title: "Placeholder 2"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
     url: "#test-link"
-    btn_label: "Click aquí"
-  - image_path: /assets/images/myimages/cardinals1.jpg
-    title: "La fiesta"
-    excerpt: "¿Listos para bailar? ¡Encuentra todos los detalles aquí!"
-    url: "#test-link"
-    btn_label: "Click aquí"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
+    title: "Placeholder 3"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
 feature_row2:
-  - image_path: /assets/images/myimages/sanfran1.jpg
-    alt: "placeholder image 1"
-    title: "Transporte y hospedaje"
-    excerpt: "¡Bienvenidos a la ciudad más bella de México! Conoce algunos tips, códigos de hoteles y detalles sobre cómo convertir esta celebración en un fin de semana inolvidable."
-    url: "#test-link"
-    btn_label: "Click aquí"
-  - image_path: /assets/images/myimages/merida1.jpg
+  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
-    title: "Mesa de regalos"
-    excerpt: "¡Sólo queremos tu presencia! Pero si insistes, aquí hay unas opciones."
+    title: "Placeholder Image Left Aligned"
+    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
     url: "#test-link"
-    btn_label: "Click aquí"
-  - image_path: /assets/images/myimages/berlin1.JPG
-    title: "Alemania y México"
-    excerpt: "¡Amamos nuestra mezcla cultural! Conoce algunas tradiciones de bodas mexicanas y alemanas."
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+feature_row3:
+  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+    alt: "placeholder image 2"
+    title: "Placeholder Image Right Aligned"
+    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
     url: "#test-link"
-    btn_label: "Click aquí"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+feature_row4:
+  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+    alt: "placeholder image 2"
+    title: "Placeholder Image Center Aligned"
+    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
 ---
 
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
 
-{% include feature_row id="feature_row2" %}
+{% include feature_row id="feature_row2" type="left" %}
+
+{% include feature_row id="feature_row3" type="right" %}
+
+{% include feature_row id="feature_row4" type="center" %}
