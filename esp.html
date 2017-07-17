@@ -5,7 +5,11 @@ author_profile: false
 ---
 
 <h1>Español</h1>
-test test
+<div class="grid__wrapper">
+  {% for post in site.portfolio %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/test1.jpg" alt="">
 
 {% include paginator.html %}
