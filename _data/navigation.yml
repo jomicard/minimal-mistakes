@@ -1,20 +1,16 @@
 # main links
 main:
-  Español:
-    - title: "test1"
-      url: /es-test1/
-    - title: "test2"
-      url: /es-test2/
-  Deutsch:
-    - title: "test1"
-      url: /de-test1/
-    - title: "test2"
-      url: /de-test2/
-  - title: "About"
-    url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Quick-Start Guide"
+    url: /docs/quick-start-guide/
+  - title: "Posts"
+    url: /year-archive/
+  - title: "Categories"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
+  - title: "Pages"
+    url: /page-archive/
+  - title: "Collections"
+    url: /collection-archive/
+  - title: "External Link"
+    url: https://google.com
