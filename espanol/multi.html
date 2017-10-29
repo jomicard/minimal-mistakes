@@ -44,20 +44,43 @@ body {
     display: table;
     clear: both;
 }
+  <style>
+body {margin:25px;}
+
+div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
 </style>
 </head>
 <body>
 
+<div class="group">
+    <div class="left">
+        <p>Alemania</p>
+        <img src="assets/images/myimages/de_flag.png" alt="" />
+    </div>
+    <div class="right">
+        <p>M&eacute;xico</p>
+        <img src="assets/images/myimages/mx_flag.png" alt="" />
+    </div>
+</div>
 <div class="row">
   <div class="column" style="background-color:#D3ADFA;">
-    <img src="assets/images/myimages/de_flag.png" width="700" height="500">
-    <h2>Alemania</h2>
     <p>Some text..</p>
     <p>Some text..</p>
     <p>Some text..</p>
   </div>
   <div class="column" style="background-color:#BCF57C;">
-    <h2>M&eacute;xico</h2>
+    <p>Some text..</p>
+    <p>Some text..</p>
     <p>Some text..</p>
   </div>
 </div>
