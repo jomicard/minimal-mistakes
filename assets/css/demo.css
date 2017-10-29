@@ -62,20 +62,8 @@
           transition: transform 0.3s;
 }
 
-.card__front1 {
+.card__front {
   background-color: #6A0888;
-}
-
-.card__front2 {
-  background-color: #B40486;
-}
-
-.card__front3 {
-  background-color: #FACC2E;
-}
-
-.card__front4 {
-  background-color: #BCA9F5;
 }
 
 .card__back {
