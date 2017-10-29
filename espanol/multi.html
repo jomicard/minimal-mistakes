@@ -20,10 +20,45 @@ feature_row:
 
 <p>Tenemos la fortuna de venir de dos culturas (bastante) diferentes, pero esto lo vemos como una gran ventaja. Hemos aprendido y disfrutado&nbsp;mucho de cada uno de ellas, y ahora queremos compartir con ustedes una probadita de lo interesante que ha sido la experiencia. Estas son algunas de las tradiciones de bodas alemanas y mexicanas.</p>
 <p>&nbsp;</p>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>Two Equal Columns</h2>
+
 <div class="row">
-  <div class="column">
-  AAA <br> BBB </div>
-  <div class="column">
-  AAA <br> BBB </div>
+  <div class="column" style="background-color:#aaa;">
+    <h2>Column 1</h2>
+    <p>Some text..</p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>Column 2</h2>
+    <p>Some text..</p>
+  </div>
 </div>
-{% include feature_row %}
+
+</body>
