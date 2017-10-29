@@ -62,12 +62,24 @@
           transition: transform 0.3s;
 }
 
-.card__front {
-  background-color: #ff5078;
+.card__front1 {
+  background-color: #6A0888;
+}
+
+.card__front2 {
+  background-color: #B40486;
+}
+
+.card__front3 {
+  background-color: #FACC2E;
+}
+
+.card__front4 {
+  background-color: #BCA9F5;
 }
 
 .card__back {
-  background-color: #1e1e1e;
+  background-color: #581845;
   -webkit-transform: rotateY(-180deg);
           transform: rotateY(-180deg);
 }
