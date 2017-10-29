@@ -44,34 +44,17 @@ body {
   <style>
 body {margin:25px;}
 
-div.polaroid {
-  width: 80%;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 25px;
-}
-
-div.container {
-  text-align: center;
-  padding: 10px 20px;
-}
+a img { border: none; }
+.caption { visibility: hidden; }
+.caption:target { visibility: visible; }
+  
 </style>
 </head>
 <body>
 <p>Tenemos la fortuna de venir de dos culturas (bastante) diferentes, pero esto lo vemos como una gran ventaja. Hemos aprendido y disfrutado&nbsp;mucho de cada uno de ellas, y ahora queremos compartir con ustedes una probadita de lo interesante que ha sido la experiencia. Estas son algunas de las tradiciones de bodas alemanas y mexicanas.</p>
 <p>&nbsp;</p>
-<div class="row">
-  <div class="column">
-    <p><img src="/assets/images/myimages/de_flag.png" alt="" style="width:300px;height:160px;" align="middle"></p>
-    <p>Some text..</p>
-    <p>Some text..</p>
-    <p>Some text..</p>
-  </div>
-  <div class="column">
-    <p><img src="/assets/images/myimages/mx_flag.png" alt="" style="width:300px;height:160px;" align="middle"></p>
-    <p>Some text..</p>
-    <p>Some text..</p>
-    <p>Some text..</p>
-  </div>
-</div>
+<a href=#capt1><img src="/assets/images/myimages/mx_flag.png" alt=foo></a>
+<div class=caption id=capt1>Image caption text</div>
+<a href=#capt2><img src="/assets/images/myimages/mx_flag.png" alt=foo></a>
+<div class=caption id=capt2>Image caption text 2</div>
   </body>
