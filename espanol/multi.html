@@ -18,59 +18,16 @@ feature_row:
     excerpt: "Hora, lugar e instrucciones para el momento más importante del día."
 ---
 <head>
-<style>
-.card {
-  position: relative;
-  float: left;
-  padding-bottom: 25%;
-  width: 25%;
-  text-align: center;
-}
-
-.card__front,
-.card__back {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.card__front,
-.card__back {
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-  -webkit-transition: -webkit-transform 0.3s;
-          transition: transform 0.3s;
-}
-
-.card__front {
-  background-color: #ff5078;
-}
-
-.card__back {
-  background-color: #1e1e1e;
-  -webkit-transform: rotateY(-180deg);
-          transform: rotateY(-180deg);
-}
-  
-.card.effect__click.flipped .card__front {
-  -webkit-transform: rotateY(-180deg);
-          transform: rotateY(-180deg);
-}
-
-.card.effect__click.flipped .card__back {
-  -webkit-transform: rotateY(0);
-          transform: rotateY(0);
-}
-  
-</style>
 </head>
 <body>
 <p>Tenemos la fortuna de venir de dos culturas (bastante) diferentes, pero esto lo vemos como una gran ventaja. Hemos aprendido y disfrutado&nbsp;mucho de cada uno de ellas, y ahora queremos compartir con ustedes una probadita de lo interesante que ha sido la experiencia. Estas son algunas de las tradiciones de bodas alemanas y mexicanas.</p>
 <p>&nbsp;</p>
-<a href=#capt1><img src="/assets/images/myimages/mx_flag.png" alt=foo></a>
-<div class=caption id=capt1>Image caption text</div>
-<a href=#capt2><img src="/assets/images/myimages/mx_flag.png" alt=foo></a>
-<div class=caption id=capt2>Image caption text 2</div>
+ <div class="card effect__hover">
+  <div class="card__front">
+    <span class="card__text">front</span>
+  </div>
+  <div class="card__back">
+    <span class="card__text">back</span>
+  </div>
+</div><!-- /card -->
   </body>
